@@ -3,12 +3,13 @@ Git Cheat Sheet
 Step 1: Create a Github account: 
 https://github.com/
 
-Step 2: CLone into a repository
+Step 2: Install GitHub CLI 
+https://cli.github.com/
 
-TBC
+Step 3: CLone into a repository
+- use command line to navigate to where you want the new folder to be
+- gh repo clone oetjensa/BGC_scripts
 
-
-Also pssible to do it from command line:
 
 gh auth login                    * login
 git init                         * initialize repository
