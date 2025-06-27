@@ -1,0 +1,24 @@
+Git Cheat Sheet
+
+Step 1: Create a Github account: 
+https://github.com/
+
+Step 2: CLone into a repository
+
+TBC
+
+
+Also pssible to do it from command line:
+
+gh auth login                    * login
+git init                         * initialize repository
+git remote -v                    * check current remote URL
+gh repo create my-repo --private       * create new private repository
+
+git branch
+git branch -m master main       *rename branch name
+git remote add origin https://github.com/oetjensa/EXAMPLE.git   * link to GitHub repository    
+git add .                       * stage files
+git commit -m 'file'            * commit changes
+git push -u origin main   * with -u don't need the origin main anymore
+git pull                       * update local repository
